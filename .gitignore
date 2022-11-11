@@ -1,3 +1,3 @@
-mobile/.nodemodules
-server/.nodemodules
-web/.nodemodules
+mobile/.node_modules
+server/.node_modules
+web/.node_modules
