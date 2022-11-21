@@ -13,6 +13,7 @@ import {
 import { Background } from './src/components/Background';
 import {Home} from './src/screens/Home';
 import { Loading } from './src/components/Background/Loading';
+import { Routes } from './src/routes';
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -28,7 +29,7 @@ export default function App() {
       backgroundColor="transparent"
       translucent
       />
-      {fontsLoaded ? <Home /> : <Loading /> }
+      {fontsLoaded ? <Routes /> : <Loading /> }
 
     </Background>
   );
