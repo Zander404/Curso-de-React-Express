@@ -30,7 +30,7 @@ interface Game {
 export function Home() {
   const [games,setGames] = useState<Game[]>([])
   useEffect(()=>{
-    fetch('http://192.168.1.22:3333/games').then(response => response.json()).then(data => setGames(data))
+    fetch('http://192.168.1.43:3333/games').then(response => response.json()).then(data => setGames(data))
   },[])
 
   const navigation = useNavigation()
