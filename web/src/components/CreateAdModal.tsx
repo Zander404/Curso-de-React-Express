@@ -152,7 +152,7 @@ export function CreateAdModal(){
                  <button
                   type='submit'
                   className='bg-violet-500 px-5 py-3 h-12 rounded-md font-semibold gap-3 hover:bg-violet-600 flex '
-                  >Procura seu duo
+                  >Procurar seu duo
                  
                     <GameController className='w-6 h-6' />
                  </button>
